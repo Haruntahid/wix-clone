@@ -1,5 +1,33 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* navbar */
+.container {
+    max-width: 980px !important;
+}
+.nav_txt {
+    font-size: 14px;
+    margin-top: 16px;
+    text-align: center;
+}
+.navbar-brand {
+    margin-right: 0 !important;
+}
+.nav_bar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+.user {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.user_icon {
+    display: inline-block;
 }
