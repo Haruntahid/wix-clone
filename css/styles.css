@@ -1,33 +1,111 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-
+a {
+  text-decoration: none !important;
+}
 /* navbar */
 .container {
-    max-width: 980px !important;
+  max-width: 980px !important;
 }
 .nav_txt {
-    font-size: 14px;
-    margin-top: 16px;
-    text-align: center;
+  font-size: 14px;
+  margin-top: 16px;
+  text-align: center;
 }
 .navbar-brand {
-    margin-right: 0 !important;
+  margin-right: 0 !important;
 }
 .nav_bar {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
 }
 .user {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .user_icon {
-    display: inline-block;
+  display: inline-block;
+}
+/* hero section */
+.hero {
+  padding-top: 70px;
+  text-align: center;
+}
+.title_txt {
+  font-size: 110px;
+}
+.booking_txt {
+  font-size: 24px;
+  margin-bottom: 32px;
+}
+.btn_main {
+  outline: none;
+  background-color: #000;
+  border: 2px solid #000;
+}
+.btn_main:hover {
+  background-color: #fff;
+  color: #000;
+}
+.custom_btn1 {
+  display: inline-block;
+  padding: 5px 20px;
+  color: #fff;
+}
+.custom_btn1:hover {
+  color: #000;
+}
+/* about */
+.about_title {
+  font-size: 42px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.horizontal {
+  height: 3px;
+  width: 40px !important;
+  background-color: #000;
+  margin-top: 40px !important;
+  margin-bottom: 40px;
+}
+.about_txt {
+  line-height: 1.7em;
+}
+/* help you */
+.help_txt {
+  font-size: 42px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.wrapper {
+  padding: 20px !important;
+}
+.boxs {
+  border-color: #000 !important;
+  border-width: 7px !important;
+  padding: 25px;
+  min-width: 240px !important;
+  text-align: center !important;
+}
+.box_title {
+  color: #000;
+  line-height: 1.33em;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+  display: block;
+}
+hr {
+  margin-top: 25px !important;
+  margin-bottom: 25px !important;
+  height: 2px;
+  color: #000 !important;
 }
